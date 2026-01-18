@@ -518,6 +518,44 @@ img {
 }
 
 /* Responsive adjustments */
+@media (max-width: 768px) {
+    .site-title {
+        position: relative;
+        top: auto;
+        left: auto;
+        display: inline-block;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+
+    .hero {
+        padding-top: 2rem;
+        justify-content: flex-start;
+        /* Ensure content starts from top */
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.2rem;
+    }
+
+    .hero-text {
+        font-size: 1.1rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .event-container-scrapbook {
+        transform: scale(0.9);
+        /* Scale down event section slightly for mobile */
+    }
+}
+
 @media (min-width: 768px) {
 
     .features-grid,
